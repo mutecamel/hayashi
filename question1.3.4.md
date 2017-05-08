@@ -63,16 +63,40 @@ $$
 \mathrm{Var} ( \widehat{ \boldsymbol{ \beta } } ).
 $$
 
-(b) Prove (1.3.3) in textbook
+(b) Prove (1.3.3) in textbook,
 
 $$
 \mathrm{Var} ( \widehat{ \boldsymbol{ \beta } } ) \ge
 \mathrm{Var} ( \mathbf{b} ),
+\tag{1.3.3}
 $$
 
 where $$ \widehat{ \boldsymbol{ \beta } } $$ is any linear unbiased estimator.
 
 ##### Solution
+
+$$
+\begin{align}
+& \mathrm{Var} ( \widehat{ \boldsymbol{ \beta } } ) -
+\mathrm{Var} ( \mathbf{b} )
+\\ = &
+\mathrm{E} [  \mathrm{Var} ( \widehat{\boldsymbol{\beta}} | \mathbf{X} ) ] + \mathrm{Var} [ \mathrm{E} ( \widehat{\boldsymbol{\beta}} | \mathbf{X} ) ] -
+\mathrm{E} [ \mathrm{Var} ( \mathbf{b} | \mathbf{X} ) ] - \mathrm{Var} [ \mathrm{E} ( \mathbf{b} | \mathbf{X} ) ]
+\\ &
+\text{(by part (a))}
+\\ = &
+\mathrm{E} [  \mathrm{Var} ( \widehat{\boldsymbol{\beta}} | \mathbf{X} ) ] -
+\mathrm{E} [ \mathrm{Var} ( \mathbf{b} | \mathbf{X} ) ]
+\qquad
+\text{($ \mathrm{E} ( \widehat{\boldsymbol{\beta}} | \mathbf{X} ) = \mathrm{E} ( \mathbf{b} | \mathbf{X} ) = \boldsymbol{ \beta } $)}
+\\ = &
+\mathrm{E} [  \mathrm{Var} ( \widehat{\boldsymbol{\beta}} | \mathbf{X} ) - \mathrm{Var} ( \mathbf{b} | \mathbf{X} ) ]
+\qquad \text{(linearity of expectations)}
+\\ = &
+\text{postive semidefinite matrix}.
+\qquad \text{(Gauss-Markov Theorem)}
+\end{align}
+$$
 
 ---
 
