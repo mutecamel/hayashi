@@ -1,0 +1,90 @@
+# Solutions to Econometrics
+
+by Qiang Gao, updated at Mar 13, 2017
+
+---
+
+## Chapter 1 Finite-Sample Properties of OLS
+
+### Section 1 The Classical Linear Regression Model
+
+...
+
+#### Review Question 1.1.4 (Normally distributed ramdom sample)
+Consider a random sample on consumption and disposable income, $$ ( CON_i, YD_i ) $$, $$ ( i = 1, 2, \ldots, n ) $$. Suppose the joint distribution of $$ ( CON_i, YD_i ) $$ (which is the same across $$ i $$ because of the random sample assumption) is normal. Clearly, Assumption 1.3 is satisfied; the rank of $$ \mathbf{X} $$ would be less than $$ K $$ only by pure accident. Show that the other assumptions, Assumptions 1.1, 1.2, and 1.4, are satisfied. **Hint:** if two random variables, $$ y $$ and $$ x $$, are jointly normally distributed, then the conditional expectation is linear in $$ x $$, i.e.,
+
+$$
+\mathrm{E} ( y | x ) = \beta_1 + \beta_2 x,
+$$
+
+and the conditional variance, $$ \mathrm{Var} ( y | x ) $$, does not depend on $$ x $$. Here, the fact that the distribution is the same across $$ i $$ is important; if the distribution differed across $$ i $$, $$ \beta_1 $$ and $$ \beta_2 $$ could vary across $$ i $$.
+
+##### Solution (with flaw)
+
+(1) We _define_ the error term as
+
+$$
+\varepsilon_i = CON_i - \beta_1 - \beta_2 YD_i,
+$$
+
+then Assumption 1.1 is satisfied.
+
+(2) Because
+
+$$
+\begin{align}
+  \mathrm{E} (\varepsilon_i | \mathbf{X})
+  & = \mathrm{E} ( CON_i - \beta_1 - \beta_2 YD_i | \mathbf{X} )
+  \qquad
+  \text{(definition of $\varepsilon_i$)} \\
+  & = \mathrm{E} ( CON_i | YD_i ) - \beta_1 - \beta_2 YD_i
+  \qquad
+  \text{(linearity of conditional expectations)} \\
+  & = \beta_1 + \beta_2 \mathit{YD}_i - \beta_1 - \beta_2 \mathit{YD}_i
+  \qquad
+  \text{(hint)} \\
+  & = 0,
+\end{align}
+$$
+
+Assumptoin 1.2 holds.
+
+(3) To prove Assumption 1.4,
+
+$$
+\begin{align}
+  \mathrm{E} ( \varepsilon_i^2 | \mathbf{X} ) & = \mathrm{Var} ( \varepsilon_i | \mathbf{X} ) + \mathrm{E} ( \varepsilon_i | \mathbf{X} )^2
+  \qquad
+  \text{(definition of $\mathrm{Var} (\cdot)$)} \\
+  & = \mathrm{Var} ( \varepsilon_i | \mathbf{X} )
+  \qquad
+  \text{(Assumption 1.2)} \\
+  & = \mathrm{Var} ( CON_i - \beta_1 - \beta_2 YD_i | YD_i )
+  \qquad
+  \text{(definition of $\varepsilon_i$)} \\
+  & = \mathrm{Var} ( CON_i | YD_i )
+  \qquad
+  \text{($\mathrm{Var} (ax + b) = a^2 \mathrm{Var} (x)$ )} \\
+  & = \sigma^2 > 0,
+  \qquad
+  \text{(hint)}
+\end{align}
+$$
+
+and
+
+$$
+\begin{align}
+  \mathrm{E} ( \varepsilon_i \varepsilon_j | \mathbf{X} )
+  & = \mathrm{E} ( \varepsilon_i | \mathbf{x}_i ) \mathrm{E} ( \varepsilon_j | \mathbf{x}_j )
+  \qquad
+  \text{(Review Question 1.1.2)} \\
+  & = 0.
+  \qquad
+  \text{(Assumption 1.2)}
+\end{align}
+$$
+
+---
+
+Copyright ©2017 by Qiang Gao

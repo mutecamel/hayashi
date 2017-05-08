@@ -1,0 +1,79 @@
+# Solutions to Econometrics
+
+by Qiang Gao, updated at Mar 13, 2017
+
+---
+
+## Chapter 1 Finite-Sample Properties of OLS
+
+### Section 1 The Classical Linear Regression Model
+
+...
+
+#### Review Question 1.1.3 (Combining linearity and strict exogeneity)
+
+Show that Assumptions 1.1 and 1.2 imply
+
+$$
+\mathrm{E} ( y_i | \mathbf{X} ) = \mathbf{x}_i' \boldsymbol{\beta}
+\qquad
+\text{($i = 1, 2, \ldots, n$)}
+\tag{1.1.20}
+$$
+
+Conversely, show that this assumption implies that there exist error terms that satisfy those two assumptions.
+
+##### Solution
+
+(1) Firstly, we prove Assumption 1.1 and 1.2 imply (1.1.20).
+
+$$
+\begin{align}
+  \mathrm{E} ( y_i | \mathbf{X} )
+  & = \mathrm{E} ( \mathbf{x}_i' \boldsymbol{\beta} + \varepsilon_i | \mathbf{X} )
+  \qquad
+  \text{(Assumption 1.1)} \\
+  & = \mathrm{E} ( \mathbf{x}_i' \boldsymbol{\beta} | \mathbf{X} ) + \mathrm{E} ( \varepsilon_i | \mathbf{X} )
+  \qquad
+  \text{(linearity of conditional expectatioins)} \\
+  & = \mathrm{E} ( \mathbf{x}_i' \boldsymbol{\beta} | \mathbf{X} )
+  \qquad
+  \text{(Assumption 1.2)} \\
+  & = \mathbf{x}_i' \boldsymbol{\beta}
+  \qquad
+  \text{($\mathbf{x}_i$ is known conditional on $\mathbf{X}$, $\boldsymbol{\beta}$ is constant)}
+\end{align}
+$$
+
+(2) Conversely, we prove (1.1.20) implies there exist error terms that satisfy Assumption 1.1 and 1.2.
+
+We _define_ the error term as
+
+$$
+\varepsilon_i = y_i - \mathbf{x}_i' \boldsymbol{\beta},
+$$
+
+then Assumption 1.1 is satisfied. To prove assumption 1.2, notice that
+
+$$
+\begin{align}
+  \mathrm{E} (\varepsilon_i | \mathbf{X})
+  & = \mathrm{E} ( y_i - \mathbf{x}_i' \boldsymbol{\beta} | \mathbf{X})
+  \qquad
+  \text{(definition of $\varepsilon_i$)} \\
+  & = \mathrm{E} ( y_i | \mathbf{X} ) - \mathrm{E} ( \mathbf{x}_i' \boldsymbol{\beta} | \mathbf{X} )
+  \qquad
+  \text{(linearity of conditional expectations)} \\
+  & = \mathbf{x}_i' \boldsymbol{\beta} - \mathrm{E} ( \mathbf{x}_i' \boldsymbol{\beta} | \mathbf{X} )
+  \qquad
+  \text{(1.1.20)} \\
+  & = \mathbf{x}_i' \boldsymbol{\beta} - \mathbf{x}_i' \boldsymbol{\beta}
+  \qquad
+  \text{($\mathbf{x}_i$ is known conditional on $\mathbf{X}$, $\boldsymbol{\beta}$ is constant)} \\
+  & = 0.
+\end{align}
+$$
+
+---
+
+Copyright ©2017 by Qiang Gao

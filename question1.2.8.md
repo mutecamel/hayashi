@@ -1,0 +1,57 @@
+# Solutions to Econometrics
+
+by Qiang Gao, updated at Mar 22, 2017
+
+---
+
+## Chapter 1 Finite-Sample Properties of OLS
+
+### Section 2 The Algebra of Least Squares
+
+...
+
+#### Review Question 1.2.8
+
+Show that
+
+$$
+R_{uc}^2 = \frac{ \mathbf{y}' \mathbf{P} \mathbf{y} }
+{ \mathbf{y}' \mathbf{y} }.
+$$
+
+##### Solution
+
+$$
+\begin{align}
+  R_{uc}^2 & = 1 - \frac{ \mathbf{e}' \mathbf{e} }
+  { \mathbf{y}' \mathbf{y} }
+  \qquad
+  \text{(definition (1.2.16))}
+  \\
+  & =
+  \frac{ \mathbf{y}' \mathbf{y} - \mathbf{e}' \mathbf{e} }
+  { \mathbf{y}' \mathbf{y} }
+  \\
+  & =
+  \frac{ \mathbf{y}' \mathbf{I} \mathbf{y} - 
+  \mathbf{y}' \mathbf{M} \mathbf{y} }
+  { \mathbf{y}' \mathbf{y} }
+  \qquad
+  \text{($ \mathbf{e} = \mathbf{M} \mathbf{y} $,
+  $\mathbf{M}$ idempotent)}
+  \\
+  & =
+  \frac{ \mathbf{y}' (\mathbf{I} - \mathbf{M}) \mathbf{y} }
+  { \mathbf{y}' \mathbf{y} }
+  \\
+  & =
+  \frac{ \mathbf{y}' \mathbf{P} \mathbf{y} }
+  { \mathbf{y}' \mathbf{y} }.
+  \qquad
+  (\mathbf{M} \equiv \mathbf{I} - \mathbf{P})
+\end{align}
+$$
+
+---
+
+Copyright ©2017 by Qiang Gao
