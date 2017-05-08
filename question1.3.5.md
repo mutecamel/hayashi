@@ -1,0 +1,37 @@
+# Solutions to Econometrics
+
+by Qiang Gao, updated at May 8, 2017
+
+---
+
+## Chapter 1 Finite-Sample Properties of OLS
+
+### Section 3 Finite-Sample Properties of OLS
+
+...
+
+#### Review Question 1.3.5
+
+Propose an unbiased estimator of $$ \sigma^2 $$ if you had data on $$ \boldsymbol{ \varepsilon } $$.
+
+##### Solution
+
+$$ \boldsymbol{ \varepsilon }' \boldsymbol{ \varepsilon } / n $$ is an unbiased estimator of $$ \sigma^2 $$. This is because
+
+$$
+\begin{align}
+\mathrm{E} ( \boldsymbol{ \varepsilon }' \boldsymbol{ \varepsilon } / n )
+& =
+\frac{1}{n} \sum_{i=1}^n \mathrm{E} ( \varepsilon_i^2 )
+\\ & =
+\frac{1}{n} \sum_{i=1}^n \mathrm{E} [ \mathrm{E} ( \varepsilon_i^2 | \mathbf{X} ) ]
+\\ & =
+\frac{1}{n} \cdot n \sigma^2
+\\ & =
+\sigma^2.
+\end{align}
+$$
+
+---
+
+Copyright ©2017 by Qiang Gao

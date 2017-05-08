@@ -1,8 +1,14 @@
-## Solutions to Review Question
+# Solutions to Econometrics
 
 by Qiang Gao, updated at May 8, 2017
 
 ---
+
+## Chapter 1 Finite-Sample Properties of OLS
+
+### Section 3 Finite-Sample Properties of OLS
+
+...
 
 #### Review Question 1.3.4 (Gauss-Markov for unconditional variance)
 
