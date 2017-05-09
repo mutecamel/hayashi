@@ -1,9 +1,6 @@
 {
     "plugins": ["mathjax", "disqus"],
     "pluginsConfig": {
-        "mathjax":{
-            "forceSVG": true
-        },
         "disqus":{
             "shortName": "gaoqiang"
         }
