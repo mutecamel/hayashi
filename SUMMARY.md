@@ -31,3 +31,6 @@
 * [Review Question 1.3.2](question1.3.2.md)
 * [Review Question 1.3.3](question1.3.3.md)
 * [Review Question 1.3.4](question1.3.4.md)
+* [Review Question 1.3.5](question1.3.5.md)
+* [Review Question 1.3.6](question1.3.6.md)
+* [Review Question 1.3.7](question1.3.7.md)
