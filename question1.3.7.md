@@ -34,7 +34,31 @@ $$
 \mathbf{P} \equiv \mathbf{X} ( \mathbf{X}' \mathbf{X} )^{-1} \mathbf{ X }',
 $$
 
-$$ p_i $$ is the $$i$$-th row and $$i$$-th column of $$ \mathbf{P} $$. Because $$ \mathbf{P} $$ is positive semidefinite, $$ p_i \ge 0 $$. Similarly, 
+$$ p_i $$ is the $$i$$-th row and $$i$$-th column of $$ \mathbf{P} $$. Because $$ \mathbf{P} $$ is positive semidefinite, $$ p_i \ge 0 $$. Similarly, because
+
+$$
+\mathbf{M} \equiv \mathbf{I} - \mathbf{X} ( \mathbf{X}' \mathbf{X} )^{-1} \mathbf{ X }',
+$$
+
+$$ 1 - p_i $$ is the $$i$$-th row and $$i$$-th column of $$ \mathbf{M} $$. Because $$ \mathbf{M} $$ is positive semidefinite, $$ 1 - p_i \ge 0 $$, $$ p_i \le 1 $$.
+
+Finally,
+
+$$
+\begin{align}
+\sum_{i=1}^n p_i 
+& =
+\mathrm{trace} ( \mathbf{P} )
+\\ & =
+\mathrm{trace} ( \mathbf{X} ( \mathbf{X}' \mathbf{X} )^{-1} \mathbf{ X }' )
+\\ & =
+\mathrm{trace} ( ( \mathbf{X}' \mathbf{X} )^{-1} \mathbf{ X }' \mathbf{X} )
+\\ & =
+\mathrm{trace} ( \mathbf{I}_K )
+\\ & =
+K.
+\end{align}
+$$
 
 ---
 
