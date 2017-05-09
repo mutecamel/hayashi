@@ -1,4 +1,4 @@
-# Solutions to Econometrics
+# Solution to Review Question
 
 by Qiang Gao, updated at Apr 23, 2017
 
