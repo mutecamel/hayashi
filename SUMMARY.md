@@ -34,3 +34,13 @@
 * [Review Question 1.3.5](question-solution/1.3.5.md)
 * [Review Question 1.3.6](question-solution/1.3.6.md)
 * [Review Question 1.3.7](question-solution/1.3.7.md)
+
+### Section 4 Hypothesis Testing under Normality
+
+* [Review Question 1.4.1](question-solution/1.4.1.md)
+* [Review Question 1.4.2](question-solution/1.4.2.md)
+* [Review Question 1.4.3](question-solution/1.4.3.md)
+* [Review Question 1.4.4](question-solution/1.4.4.md)
+* [Review Question 1.4.5](question-solution/1.4.5.md)
+* [Review Question 1.4.6](question-solution/1.4.6.md)
+* [Review Question 1.4.7](question-solution/1.4.7.md)
