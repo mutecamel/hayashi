@@ -1,5 +1,5 @@
 {
-    "plugins": ["mathjax", "disqus"],
+    "plugins": ["mathjax"],
     "pluginsConfig": {
         "mathjax": {
             "forceSVG": false
