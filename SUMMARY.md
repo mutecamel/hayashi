@@ -44,3 +44,18 @@
 * [Review Question 1.4.5](question-solution/1.4.5.md)
 * [Review Question 1.4.6](question-solution/1.4.6.md)
 * [Review Question 1.4.7](question-solution/1.4.7.md)
+
+### Section 5 Relation to Maximum Likelihood
+
+* [Review Question 1.5.1](question-solution/1.5.1.md)
+* [Review Question 1.5.2](question-solution/1.5.2.md)
+* [Review Question 1.5.3](question-solution/1.5.3.md)
+* [Review Question 1.5.4](question-solution/1.5.4.md)
+* [Review Question 1.5.5](question-solution/1.5.5.md)
+
+### Section 6 Generalized Least Squares (GLS)
+
+* [Review Question 1.6.1](question-solution/1.6.1.md)
+* [Review Question 1.6.2](question-solution/1.6.2.md)
+* [Review Question 1.6.3](question-solution/1.6.3.md)
+* [Review Question 1.6.4](question-solution/1.6.4.md)
