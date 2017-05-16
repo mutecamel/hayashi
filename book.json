@@ -3,9 +3,6 @@
     "pluginsConfig": {
         "mathjax": {
             "forceSVG": false
-        },
-        "disqus":{
-            "shortName": "gaoqiang"
         }
     }
 }
