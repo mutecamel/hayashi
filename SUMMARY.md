@@ -1,6 +1,6 @@
-# Summary
+# 目录
 
-* [Introduction](README.md)
+* [简介](README.md)
 
 ## Chapter 1 Finite-Sample Properties of OLS
 
