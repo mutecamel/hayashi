@@ -19,6 +19,8 @@ by Qiang Gao (School of Finance, Capital University of Economics and Business)
 
 最后，本课件正在逐步建设中，许多内容尚处空缺，错误也在所难免，欢迎读者批评指正（本书每一页边距空白处可随意点击“加号”添加评论）。
 
+ps. 若网页中数学公式显示不正常，通常刷新一遍网页即可正常显示。这似乎是 `gitbook.com` 平台的技术性问题，或者是从国内网络访问国际网络的普遍性问题造成的，本人无法解决。
+
 ---
 
 [^1]: Fumio Hayashi, _Econometrics_. Princeton University Press, 2000. (http://press.princeton.edu/titles/6946.html)
