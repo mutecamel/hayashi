@@ -72,3 +72,7 @@
 * [Review Question 1.7.6](question-solution/1.7.6.md)
 * [Review Question 1.7.7](question-solution/1.7.7.md)
 * [Review Question 1.7.8](question-solution/1.7.8.md)
+
+### Analytical Exercises
+
+* [Analytical Exercise 1.1](exercise-solution/1.1.md)
