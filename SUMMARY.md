@@ -76,3 +76,4 @@
 ### Analytical Exercises
 
 * [Analytical Exercise 1.1](exercise-solution/1.1.md)
+* [Analytical Exercise 1.2](exercise-solution/1.2.md)
