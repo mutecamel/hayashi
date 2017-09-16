@@ -77,3 +77,10 @@
 
 * [Analytical Exercise 1.1](exercise-solution/1.1.md)
 * [Analytical Exercise 1.2](exercise-solution/1.2.md)
+
+## Chapter 2 Large-Sample Theory
+
+### Section 1 Review of Limit Theorems for Sequences of Random Variables
+
+* [Review Question 2.1.1](question-solution/2.1.1.md)
+* [Review Question 2.1.2](question-solution/2.1.2.md)
