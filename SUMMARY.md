@@ -63,7 +63,6 @@
 ### Section 7 Application: Returns to Scale in Electricity Supply
 
 * [Lecture Note](lecture-note/1.7.md)
-
 * [Review Question 1.7.1](question-solution/1.7.1.md)
 * [Review Question 1.7.2](question-solution/1.7.2.md)
 * [Review Question 1.7.3](question-solution/1.7.3.md)
@@ -84,3 +83,6 @@
 
 * [Review Question 2.1.1](question-solution/2.1.1.md)
 * [Review Question 2.1.2](question-solution/2.1.2.md)
+* [Review Question 2.1.3](question-solution/2.1.3.md)
+* [Review Question 2.1.4](question-solution/2.1.4.md)
+* [Review Question 2.1.5](question-solution/2.1.5.md)
