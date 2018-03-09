@@ -6,12 +6,13 @@
 
 ### Section 1 The Classical Linear Regression Model
 
-* [Review Question 1.1.1](question-solution/1.1.1.md)
-* [Review Question 1.1.2](question-solution/1.1.2.md)
-* [Review Question 1.1.3](question-solution/1.1.3.md)
-* [Review Question 1.1.4](question-solution/1.1.4.md)
-* [Review Question 1.1.5](question-solution/1.1.5.md)
-* [Review Question 1.1.6](question-solution/1.1.6.md)
+* [Lecture Note 1.1](lecture-note/1.1.md)
+  * [Review Question 1.1.1](question-solution/1.1.1.md)
+  * [Review Question 1.1.2](question-solution/1.1.2.md)
+  * [Review Question 1.1.3](question-solution/1.1.3.md)
+  * [Review Question 1.1.4](question-solution/1.1.4.md)
+  * [Review Question 1.1.5](question-solution/1.1.5.md)
+  * [Review Question 1.1.6](question-solution/1.1.6.md)
 
 ### Section 2 The Algebra of Least Squares
 
