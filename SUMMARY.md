@@ -87,3 +87,9 @@
 * [Review Question 2.1.3](question-solution/2.1.3.md)
 * [Review Question 2.1.4](question-solution/2.1.4.md)
 * [Review Question 2.1.5](question-solution/2.1.5.md)
+
+## Supplements
+
+* [Taylor's linearization](supplements/taylor-linearization.md)
+* [Variance-Covariance Matrix](supplements/var-cov-matrix.md)
+* [Four Ways of Matrix Multiplication](supplements/matrix-multiplication.md)
