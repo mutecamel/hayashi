@@ -16,16 +16,17 @@
 
 ### Section 2 The Algebra of Least Squares
 
-* [Review Question 1.2.1](question-solution/1.2.1.md)
-* [Review Question 1.2.2](question-solution/1.2.2.md)
-* [Review Question 1.2.3](question-solution/1.2.3.md)
-* [Review Question 1.2.4](question-solution/1.2.4.md)
-* [Review Question 1.2.5](question-solution/1.2.5.md)
-* [Review Question 1.2.6](question-solution/1.2.6.md)
-* [Review Question 1.2.7](question-solution/1.2.7.md)
-* [Review Question 1.2.8](question-solution/1.2.8.md)
-* [Review Question 1.2.9](question-solution/1.2.9.md)
-
+* [Lecture Note 1.2](lecture-note/1.2.md)
+  * [Review Question 1.2.1](question-solution/1.2.1.md)
+  * [Review Question 1.2.2](question-solution/1.2.2.md)
+  * [Review Question 1.2.3](question-solution/1.2.3.md)
+  * [Review Question 1.2.4](question-solution/1.2.4.md)
+  * [Review Question 1.2.5](question-solution/1.2.5.md)
+  * [Review Question 1.2.6](question-solution/1.2.6.md)
+  * [Review Question 1.2.7](question-solution/1.2.7.md)
+  * [Review Question 1.2.8](question-solution/1.2.8.md)
+  * [Review Question 1.2.9](question-solution/1.2.9.md)
+  
 ### Section 3 Finite-Sample Properties of OLS
 
 * [Review Question 1.3.1](question-solution/1.3.1.md)
